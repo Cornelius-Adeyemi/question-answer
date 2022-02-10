@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box;
+
+}
+body{
+    background-color:rgb(69, 49, 125);
+    padding:0;
+    margin:0;
+    color: white;
+  
+}
+
+
+#container{
+    background-color:cornsilk;
+    width:50%;
+    padding:2px;
+    margin: auto;
+    position:relative;
+    top:250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+#btn-container{
+    margin:15px 2px;
+    width:100%;
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.btn-ans{
+    width:49%;
+    margin: 2px;
+    
+}
+
+.btn{
+    background-color: rgb(5, 88, 252);
+    border-radius: 6px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#control-btn{
+    margin:5px;
+    display:flex;
+    justify-content: center;
+}
+
+.btn-con{
+    margin:0 2px;
+    height: 30px;
+    width:60px;
+}
+
+
+.hide{
+    display:none
+}
+
+.wrong{
+    background-color:red;
+}
+.right{
+    background-color: green;
+}
+
+#que-space{
+    background-color: yellow;
+    color:black;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+#scoreSpace{
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+#scoreDiv{
+    display: none;
+}
