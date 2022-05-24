@@ -1,0 +1,19 @@
+{
+  "name": "question",
+  "version": "1.0.0",
+  "description": "This is a question and answer app that i created. \r This is an HTML, CSS and javascript project.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornelius-Adeyemi/question-answer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cornelius-Adeyemi/question-answer/issues"
+  },
+  "homepage": "https://github.com/Cornelius-Adeyemi/question-answer#readme"
+}
